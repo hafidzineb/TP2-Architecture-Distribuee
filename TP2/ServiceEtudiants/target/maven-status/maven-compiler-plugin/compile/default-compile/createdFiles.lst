@@ -1,0 +1,4 @@
+fr\univ\tp\etudiants\ServiceEtudiantsApplication.class
+fr\univ\tp\etudiants\model\Etudiant.class
+fr\univ\tp\etudiants\repository\EtudiantRepository.class
+fr\univ\tp\etudiants\controller\EtudiantController.class

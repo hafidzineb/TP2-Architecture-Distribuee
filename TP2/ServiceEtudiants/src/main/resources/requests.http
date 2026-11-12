@@ -1,0 +1,12 @@
+### Creer un etudiant
+POST http://localhost:8081/etudiants
+Content-Type: application/json
+
+{ "nom": "Ali", "email": "ali@univ.com" }>
+
+### Lire les etudiants
+GET http://localhost:8081/etudiants
+### Supprimer l'etudiant 1
+DELETE http://localhost:8081/etudiants/1
+###
+GET http://localhost:8081/etudiants/999

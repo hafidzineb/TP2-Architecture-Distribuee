@@ -1,0 +1,15 @@
+### Creer un cours
+POST http://localhost:8082/cours
+Content-Type: application/json
+
+{ "titre": "Prog 3", "etudiantId": 1 }
+
+### Lire les cours
+GET http://localhost:8082/cours
+### Cours enrichis
+GET http://localhost:8082/cours/enrichis
+### Supprimer l'etudiant 1
+   DELETE http://localhost:8081/etudiants/1
+
+   ### Etudiant inexistant (doit donner 404)
+GET http://localhost:8081/etudiants/999
